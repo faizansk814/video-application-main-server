@@ -34,7 +34,7 @@ function token_Genretor(res, name, id,image) {
         "marvel",
         { expiresIn: "6s" }
     );
-    res.redirect(`http://127.0.0.1:5500/frontend/index.html?token=${token}&image=${image}&name=${name}`);
+    res.redirect(`https://comforting-rugelach-cc3299.netlify.app?token=${token}&image=${image}&name=${name}`);
     // res.status(202).json({ refreshToken });
 }
 
